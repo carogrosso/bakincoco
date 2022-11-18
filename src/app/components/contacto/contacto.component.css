@@ -1,0 +1,48 @@
+.img{
+    margin-top: 30px;
+    background: url(../../../assets/img/galeria/12.jpg) no-repeat;
+}
+
+.formcontrol{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+span{
+    font-weight: 800;
+    color: #dc743e
+}
+
+label{
+    font-family: nimbu;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    font-family: nimbu;
+}
+
+h1{
+    font-family: albraBlack;
+    text-align: center;
+    color: #f3bd93;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #f3bd93;
+    border: #f3bd93;
+    color: black;
+
+}
+
+button:hover{
+    background-color: #dc743e;
+    border: #dc743e;
+    color: #fff
+}

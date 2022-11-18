@@ -1,0 +1,67 @@
+<app-header></app-header>
+<div class="row">
+
+  <div class="col-md-6">
+
+    <form class="formcontrol"  action="mailto:grossocrln@gmail.com" method="post" enctype="text/plain">
+      <h1>Contanos sobre tu evento</h1>
+      <div class="row">
+      <div class="form-group col-md-6">
+        <label for="nombre">Nombre</label><span> *</span>
+        <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="telefono">Telefono</label><span> *</span>
+        <input class="form-control" type="number" name="telefono" id="telefono" placeholder="Ingresa tu telefono">
+      </div>
+    
+      <div class="form-group col-md-6">
+        <label for="servicio">Que servicio necesitas?</label><span> *</span>
+        <select class="form-control" id="">
+          <option selected>Elegi una opcion</option>
+          <option value="1">Desayunos</option>
+          <option value="2">Picadas</option>
+          <option value="3">Tortas</option>
+          <option value="4">Evento tematico</option>
+          <option value="5">Catering</option>
+          <option value="6">Otros</option>
+        </select>      
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="fecha">Fecha solicitada</label><span> *</span>
+        <input class="form-control" type="date" name="fecha" id="fecha" placeholder="Fecha solicitada">
+      </div>
+      
+      <div class="form-group col-md-6">
+        <label for="invitados">Cantidad de invitados</label><span> *</span>
+        <input class="form-control" type="number" name="invitados" id="invitados" placeholder="Cantidad de invitados">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="servicio">Hay mas mesa dulce?</label>
+        <select class="form-control" id="">
+          <option selected>Elegi una opcion</option>
+          <option value="1">Si</option>
+          <option value="2">No</option>
+        </select>      
+      </div>
+      
+      <div class="form-group">
+        <label for="mensaje">Contame un poco mas...</label><span> *</span><br> 
+        <textarea class="form-control" name="mensaje" id="mensaje" cols="50" rows="7"
+        placeholder="Compartime tus ideas, sabores que te gustarían y qué no puede faltar."></textarea>
+      </div> 
+      
+    </div>
+      <button class="btn btn-primary" type="submit">Solicitar presupuesto</button>
+    </form>
+  </div>
+
+  <div class="col-md-6 img">
+  </div>
+</div>
+
+
+<app-footer></app-footer>

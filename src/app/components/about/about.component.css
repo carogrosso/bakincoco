@@ -1,0 +1,31 @@
+#sobremi{
+    height: auto;
+    text-align: center;
+}
+
+.sobremi{
+	background: #bfc6dd;
+    padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about{
+	width: 80%;
+}
+
+.sobremi h1{
+	color: #666;
+	font-size: 40px;
+	font-weight: 100;
+	padding-bottom: 30px;
+	font-family: albraBlack;
+}
+
+p{
+	font-family: albraMedium;
+	font-size: 20px;
+}
+

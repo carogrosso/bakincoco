@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face{
+	font-family: albraBlack;
+	src: url(../src/assets/AlbraBlack.ttf)
+}
+
+@font-face{
+	font-family: helveticaNeueThin;
+	src: url(../src/assets/HelveticaNeueThin.ttf)
+}
+
+@font-face{
+	font-family: albraMedium;
+	src: url(../src/assets/AlbraMedium.ttf)
+}
+
+@font-face{
+	font-family: sillyGirls;
+	src: url(../src/assets/SillyGirls.ttf)
+}
+
+@font-face{
+	font-family: nimbu;
+	src: url(../src/assets/Nimbu.ttf)
+}

@@ -1,0 +1,95 @@
+#servicios{
+  height: auto;
+  padding-top: 50px;
+	padding-bottom: 50px;
+  background-image: url(../../../assets/img/confeti2.png);
+  background-size: 90%;
+}
+
+.servicios{
+	text-align: center;
+}
+
+.servicios img{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px; 
+	border-radius: 30px;
+}
+
+.servicios h1{
+	color: #666;
+	font-size: 40px;
+	font-weight: 100;
+  font-family: albraBlack;
+}
+
+.servicios h3{
+  font-family: albramedium;
+}
+
+.servicios p{
+  font-family: nimbu;
+  font-size: 18px;
+}
+
+.col-lg-3{
+	padding-top: 40px;
+  padding-bottom: 40px;
+	margin: auto;
+}
+
+.vermas a{
+    text-decoration: none;
+    color: #606e59;
+}
+
+
+
+/* CSS */
+.button-23 {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: albramedium;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button-23:hover{
+	background-color: #f7d6a4;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-23:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}

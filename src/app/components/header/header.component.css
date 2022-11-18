@@ -1,0 +1,39 @@
+header{
+	background: white; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/* position: fixed; */
+	/* width: 100%; */
+	/* z-index: 34242; */
+}
+
+.col-md-4{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.logo{
+	width: 250px;
+}
+
+.botonera li{
+    list-style: none;
+	margin-left: 30px;
+	font-weight: 700;
+	font-size: 20px;
+	float: right;
+}
+
+.botonera li a{
+	color: #606e59;
+    text-decoration: none;
+	font-family: sillyGirls;
+	font-size: 50px;
+}
+
+.botonera li a:hover{
+	text-decoration: none;
+	transition: text-shadow, 0.5s;
+	text-shadow: 2px 7px #bfc6dd
+}

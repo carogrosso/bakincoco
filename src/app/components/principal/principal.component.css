@@ -1,0 +1,51 @@
+.principal{
+	height: 85vh;
+	background: url(../../../assets/img/tortas.jpeg) no-repeat center center fixed; 
+	/* -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;*/
+	background-size: cover; 
+}
+
+.vertical-centered-text {
+	display: flex;
+	align-items: center; /*alineacion vertical*/
+	justify-content: center; /*alineacion horizontal*/
+}
+
+.cta{
+	padding-top: 0px;
+	text-align: center;
+}
+
+.btn{
+	background-color: #bfc6dd;
+	color: #333;
+}
+
+.btn:hover{
+	background-color: #333;
+	color: #757575;
+}
+
+h1{
+    font-family: albrablack;
+	font-weight: 700;
+	font-size: 50px;
+	color: rgba(255,255,255,.7);
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #f3bd93;
+    border: #f3bd93;
+    color: black;
+
+}
+
+.btn:hover{
+    background-color: #dc743e;
+    border: #dc743e;
+    color: #fff
+}

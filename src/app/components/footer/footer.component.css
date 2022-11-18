@@ -1,0 +1,49 @@
+footer{
+	/* background-image: url(../../../assets/img/confeti2.png); */
+	/* background-size: cover; */
+	background-color: #606e59;
+	height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	color: rgba(255, 255, 255, 0.911)
+}
+
+footer h1{
+	text-align: center;
+	font-size: 25px;
+	font-family: albramedium;
+}
+
+#redes{
+	text-align: center;
+	font-size: 25px;
+	flex-direction: column;
+	align-items: center;
+}
+
+#redes img{
+    width: 45px;
+    display: inline;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#contacto{
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.copy{
+	padding-top: 30px;
+	text-align: center;
+
+}
+
+a{
+	color: rgba(255, 255, 255, 0.911)
+}
+
+a:hover{
+	color: rgba(235, 170, 170, 0.911)
+}

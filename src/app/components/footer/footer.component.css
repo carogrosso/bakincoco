@@ -47,3 +47,10 @@ a{
 a:hover{
 	color: rgba(235, 170, 170, 0.911)
 }
+
+@media(max-width: 576px){
+	.redes{
+		margin-bottom: 20px;
+	}
+
+}

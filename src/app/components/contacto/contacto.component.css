@@ -46,3 +46,10 @@ button:hover{
     border: #dc743e;
     color: #fff
 }
+
+@media(max-width: 576px){
+	.formu{
+		width: 90%;
+	}
+
+}

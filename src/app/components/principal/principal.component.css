@@ -1,10 +1,11 @@
 .principal{
 	height: 85vh;
-	background: url(../../../assets/img/tortas.jpeg) no-repeat center center fixed; 
-	/* -webkit-background-size: cover;
+	background: url(../../../assets/img/tortas.jpeg) center ;
+	background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;*/
-	background-size: cover; 
+	-o-background-size: cover;
+
 }
 
 .vertical-centered-text {

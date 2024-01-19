@@ -2,9 +2,6 @@ header{
 	background: white; 
 	padding-top: 10px;
 	padding-bottom: 10px;
-	/* position: fixed; */
-	/* width: 100%; */
-	/* z-index: 34242; */
 }
 
 .col-md-4{
@@ -18,16 +15,23 @@ header{
 }
 
 .botonera li{
-    list-style: none;
+  list-style: none;
 	margin-left: 30px;
 	font-weight: 700;
 	font-size: 20px;
-	float: right;
+}
+
+.botonera{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
 }
 
 .botonera li a{
 	color: #606e59;
-    text-decoration: none;
+  text-decoration: none;
 	font-family: sillyGirls;
 	font-size: 50px;
 }
@@ -36,4 +40,20 @@ header{
 	text-decoration: none;
 	transition: text-shadow, 0.5s;
 	text-shadow: 2px 7px #bfc6dd
+}
+
+@media(max-width: 576px){
+	.botonera li a{
+		font-size: 30px;
+	}
+		.centrar{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+		}
+	.botonera{
+		margin-top: 20px;
+	}
+
 }

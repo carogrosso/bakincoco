@@ -19,8 +19,20 @@ h3{
     color: #222;
 }
 
-.row{
+img{
+    width: 100%;
+}
 
+.row{
     background-image: url(../../../assets/img/confeti2.png);
     background-size: 100%;
+}
+
+@media(max-width: 576px){
+	h1{
+		font-size: 40px;
+	}
+    h3{
+        font-size: 25px;
+    }
 }
